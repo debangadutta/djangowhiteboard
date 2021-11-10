@@ -1,0 +1,1 @@
+{"mappings":"AACI;EACI","sources":["src/styles/index.scss"],"sourcesContent":["#container {\r\n    > .konvajs-content {\r\n        background: white;\r\n    }\r\n}"],"names":[],"version":3,"file":"index.css.map","sourceRoot":"../../"}

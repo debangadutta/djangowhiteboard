@@ -10,14 +10,14 @@
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
 
-  <!-- link rel="stylesheet" href="css/styles.css?v=1.0">-->
+  <link rel="stylesheet" href="{% static 'web/index.css' %}">
 
 </head>
 
 <body style="background-color: #f1f1f1;">
-  <canvas id="foo" width="300" height="300" style="background-color: white;">
+  <div id="container">
 
-  </canvas>
+  </div>
   <script >
     window.boardId = "{{board_id}}"; 
   </script>

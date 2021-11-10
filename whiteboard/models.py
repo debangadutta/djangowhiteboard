@@ -20,8 +20,10 @@ class BoardObject(models.Model):
     @classmethod
     def from_json(cls, board_id, object_data):
         object_data = {**object_data}
-        return cls(
+        board = cls(
             board_id = board_id,
             type = object_data.pop("type"),
             data = object_data,
         )
+        board.save()
+        return board
